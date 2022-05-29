@@ -12,7 +12,7 @@ const SearchBar = ({ search }) => {
           passHref={true}
         >
           <a>
-            <div className="p-1 border-b-2 border-b-slate-200 w-full cursor-pointer hover:bg-blue-500/[.06] transition-all">
+            <div className="p-1 border-b-2 border-b-slate-200 dark:border-b-slate-800 w-full cursor-pointer hover:bg-blue-500/[.06] transition-all dark:bg-slate-700 dark:text-white dark:hover:bg-slate-600">
               {item["matching_full_name"]}
             </div>
           </a>
